@@ -3,11 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
+    "start": "cross-env NODE_ENV=production rspack preview",
     "dev": "cross-env NODE_ENV=development rspack serve",
     "build": "cross-env NODE_ENV=production rspack build",
     "format": "prettier --write \"src/**/*.{ts,tsx}\""
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "lucide-react": "^0.416.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
