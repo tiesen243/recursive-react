@@ -1,5 +1,5 @@
 .wrapper {
-  min-width: 600px;
+  min-width: 500px;
   padding: 1rem;
   border-width: 1px;
   border-style: solid;
@@ -50,6 +50,9 @@
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+  .wrapper {
+    min-width: 600px;
   }
 }
 
