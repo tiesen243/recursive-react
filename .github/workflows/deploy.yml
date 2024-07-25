@@ -23,6 +23,9 @@ jobs:
       - name: Build project
         run: bun run build
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
         with:
