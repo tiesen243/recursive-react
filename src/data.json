@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "label": "Documents",
+      "nodes": [
+        {
+          "label": "Spreadsheets",
+          "nodes": [{ "label": "sheet1.xls" }, { "label": "sheet2.xls" }]
+        },
+        {
+          "label": "Doc",
+          "nodes": [{ "label": "document3.doc" }, { "label": "document4.doc" }]
+        },
+        {
+          "label": "Presentations",
+          "nodes": [{ "label": "presentation1.ppt" }, { "label": "presentation2.ppt" }]
+        }
+      ]
+    },
+    {
+      "label": "Downloads",
+      "nodes": [
+        {
+          "label": "Movies",
+          "nodes": [{ "label": "movie1.mp4" }, { "label": "movie2.mp4" }, { "label": "movie3.mp4" }]
+        },
+        {
+          "label": "Music",
+          "nodes": [{ "label": "music1.mp3" }, { "label": "music2.mp3" }]
+        }
+      ]
+    },
+    {
+      "label": "Pictures",
+      "nodes": [
+        {
+          "label": "Wallpapers",
+          "nodes": [
+            { "label": "wallpaper1.jpg" },
+            { "label": "wallpaper2.jpg" },
+            { "label": "wallpaper3.jpg" }
+          ]
+        },
+        {
+          "label": "Waifu",
+          "nodes": [{ "label": "waifu1.jpg" }, { "label": "waifu2.jpg" }]
+        }
+      ]
+    }
+  ]
+}
