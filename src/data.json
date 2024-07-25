@@ -4,11 +4,11 @@
       "label": "Documents",
       "nodes": [
         {
-          "label": "Spreadsheets",
+          "label": "Sheets",
           "nodes": [{ "label": "sheet1.xls" }, { "label": "sheet2.xls" }]
         },
         {
-          "label": "Doc",
+          "label": "Documents",
           "nodes": [{ "label": "document3.doc" }, { "label": "document4.doc" }]
         },
         {
@@ -46,6 +46,10 @@
           "nodes": [{ "label": "waifu1.jpg" }, { "label": "waifu2.jpg" }]
         }
       ]
+    },
+    {
+      "label": "Videos",
+      "nodes": [{ "label": "video1.mp4" }, { "label": "video2.mp4" }, { "label": "video3.mp4" }]
     }
   ]
 }
